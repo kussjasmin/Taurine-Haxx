@@ -12,7 +12,7 @@ Requires: Existing Taurine jailbreak and iOS 14.0 - 14.6
 
 ### Get up and running
 
-1. Install [Taurine Untethered](https://github.com/AppInstalleriOSGH/Taurine/releases/) with TrollStore
+1. Install [Taurine Untethered](https://github.com/AppInstalleriOSGH/Taurine/raw/main/Taurine.ipa) with TrollStore
 2. On the device, Copy `/System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd` to `/System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd.back`
 3. Then replace `/System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd` with `/usr/bin/fileproviderctl`
 4. Create an empty file at `/var/mobile/.untether`
