@@ -19,7 +19,7 @@ int main (int __unused argc, char* argv[]) {
     NSFileManager *fileManager = [NSFileManager defaultManager];
     NSString* TaurinePath = [NSString stringWithFormat:@"%@/Taurine", [[SBFApplication alloc] initWithApplicationBundleIdentifier: @"org.coolstar.taurine"].bundleURL.path];
     if (!isJailbroken() && [fileManager fileExistsAtPath: @"/var/mobile/.untether"]) {
-        sleep(45);
+        sleep(25);
         spawnRoot(TaurinePath, @[@"jailbreak"]);
     }
 }
