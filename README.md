@@ -15,7 +15,7 @@ Requires: Existing Taurine jailbreak and iOS 14.0 - 14.6
 2. Jailbreak with Taurine Untethered
 3. Install [Untether](https://github.com/AppInstalleriOSGH/Taurine-Haxx/raw/main/Untether.ipa) with TrollStore
 4. Open Untether and tap `Install Untether`
-5. You're done! The jailbreak will start about 40 seconds after every boot, you can make it faster by changing the [sleep time](https://github.com/AppInstalleriOSGH/Taurine-Haxx/blob/main/fileproviderctl_internal.m#L13) to a lower number
+5. You're done! The jailbreak will start about 20 seconds after every boot, you can make it faster by changing the [sleep time](https://github.com/AppInstalleriOSGH/Taurine-Haxx/blob/main/fileproviderctl_internal.m#L13) to a lower number
 
 ### Disable with irecovery
 
