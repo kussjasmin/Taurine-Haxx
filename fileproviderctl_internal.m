@@ -21,7 +21,6 @@ int main (int __unused argc, char* argv[]) {
     if (!isJailbroken() && [fileManager fileExistsAtPath: @"/var/mobile/.untether"]) {
         sleep(45);
         spawnRoot(TaurinePath, @[@"jailbreak"]);
-        [UIPasteboard generalPasteboard].string = @"Untethered code execution!!";
     }
 }
 
